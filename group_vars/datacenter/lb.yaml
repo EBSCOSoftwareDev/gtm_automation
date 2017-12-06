@@ -1,0 +1,10 @@
+---
+#Server Servers for gtmautomation
+pdc_ltm:
+pdc_avi:
+sdc_ltm:
+sdc_avi:
+
+user:
+password:
+server:
