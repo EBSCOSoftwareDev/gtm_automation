@@ -1,0 +1,9 @@
+---
+- name: take out single node
+  bigip_gtm_virtual_server:
+  user: "{{ user }}"
+  password: "{{ password }}"
+  virtual_server_server: "{{ pdc_ltm }}"
+  virtual_server_name:
+    - pdc-consite
+  state: disable
