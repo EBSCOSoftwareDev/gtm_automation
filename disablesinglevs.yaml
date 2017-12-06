@@ -1,0 +1,10 @@
+---
+- name: disable Virtual servers
+  hosts: localhost
+  connections: local
+  gather_facts: false
+
+
+  tasks:
+  - name: Disable Single Virtual Server in Datacenter
+    include_role:
